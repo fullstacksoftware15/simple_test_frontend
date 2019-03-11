@@ -1,0 +1,40 @@
+{
+  "name": "application",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "mobilephone": {
+      "type": "string",
+      "required": true
+    },
+    "jobId": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "job": {
+      "type": "belongsTo",
+      "model": "job",
+      "foreignKey": "jobId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

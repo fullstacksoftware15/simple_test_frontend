@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDS": {
+    "host": "ds223685.mlab.com",
+    "port": 23685,
+    "url": "",
+    "database": "john-test",
+    "password": "L0v3sjck",
+    "name": "mongoDS",
+    "user": "itsmetambui",
+    "connector": "mongodb"
+  }
+}

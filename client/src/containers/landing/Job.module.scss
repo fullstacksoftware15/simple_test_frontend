@@ -1,0 +1,22 @@
+.Position {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.Meta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Description, .Meta, .Benefit {
+  font-size: 12px;
+}
+
+.ApplyBtn {
+  background-color: grey;
+  color: white;
+  font-size: 15px;
+  padding: 10px 15px;
+}
